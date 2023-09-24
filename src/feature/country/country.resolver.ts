@@ -1,7 +1,6 @@
 import { Resolver } from '@nestjs/graphql';
 
-import { BaseResolver } from '../common/base/base.resolver';
-import { Country } from './country.entity';
+import { BaseResolver, Country } from '../../common';
 import { CountryService } from './country.service';
 import { CreateCountryDto } from './dto/create-country.dto';
 import { UpdateCountryDto } from './dto/update-country.dto';

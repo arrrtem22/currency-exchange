@@ -1,10 +1,9 @@
 import { Args, Mutation, Query, Resolver } from '@nestjs/graphql';
 
-import { BaseResolver } from '../common/base/base.resolver';
+import { BaseResolver, ExchangeOffice } from '../../common';
 import { CreateExchangeOfficeDto } from './dto/create-exchange-office.dto';
 import { TopExchangersByCountryDto } from './dto/top-chargers-by-country.dto';
 import { UpdateExchangeOfficeDto } from './dto/update-exchange-office.dto';
-import { ExchangeOffice } from './exchange-office.entity';
 import { ExchangeOfficeService } from './exchange-office.service';
 
 @Resolver(() => ExchangeOffice)

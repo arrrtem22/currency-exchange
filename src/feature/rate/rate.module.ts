@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
-import { Rate } from './rate.entity';
+import { Rate } from '../../common/entity/rate.entity';
 import { RateResolver } from './rate.resolver';
 import { RateService } from './rate.service';
 

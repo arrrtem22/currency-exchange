@@ -3,16 +3,16 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { getRepositoryToken } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 
-import { Country } from '../../country/country.entity';
+import { Country } from '../../../common/entity/country.entity';
 import { countryServiceProvider } from '../../country/test/country.service-provider';
 import { countryMock } from '../../country/test/mocks';
-import { Exchange } from '../../exchange/exchange.entity';
+import { Exchange } from '../../../common/entity/exchange.entity';
 import { ExchangeService } from '../../exchange/exchange.service';
 import { exchangeMock } from '../../exchange/test/mocks';
-import { Rate } from '../../rate/rate.entity';
+import { Rate } from '../../../common/entity/rate.entity';
 import { RateService } from '../../rate/rate.service';
 import { rateMock } from '../../rate/test/mocks';
-import { ExchangeOffice } from '../exchange-office.entity';
+import { ExchangeOffice } from '../../../common/entity/exchange-office.entity';
 import { ExchangeOfficeService } from '../exchange-office.service';
 import { exchangeOfficeMock, importExchangeDataMock } from './mocks';
 

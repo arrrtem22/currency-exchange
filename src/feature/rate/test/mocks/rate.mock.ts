@@ -1,5 +1,5 @@
 import { exchangeOfficeMock } from '../../../exchange-office/test/mocks';
-import { Rate } from '../../rate.entity';
+import { Rate } from '../../../../common/entity/rate.entity';
 
 const rateMock: Rate = {
   id: '072df4fb-f790-4b3a-b2fa-182ce25411ff',

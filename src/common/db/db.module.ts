@@ -4,12 +4,10 @@ import { DatabaseType, DataSource } from 'typeorm';
 
 import { AppConfigModule } from '../config/app.config.module';
 import { AppConfigService } from '../config/app.config.service';
-import { Country } from '../country/country.entity';
-import { Exchange } from '../exchange/exchange.entity';
-import { ExchangeOffice } from '../exchange-office/exchange-office.entity';
-import { Rate } from '../rate/rate.entity';
+
 import { Country1693137721487 } from './migrations/1693137721487-Country';
 import { RestModels1693139817207 } from './migrations/1693139817207-RestModels';
+import { Country, Rate, Exchange, ExchangeOffice } from '../';
 
 @Module({
   imports: [

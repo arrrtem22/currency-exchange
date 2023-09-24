@@ -7,7 +7,7 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 
-import { ExchangeOffice } from '../exchange-office/exchange-office.entity';
+import { ExchangeOffice } from './exchange-office.entity';
 
 @Entity()
 @ObjectType()

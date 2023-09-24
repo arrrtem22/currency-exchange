@@ -1,9 +1,9 @@
 import { Field, ID, ObjectType } from '@nestjs/graphql';
 import { Column, Entity, ManyToOne, OneToMany, PrimaryColumn } from 'typeorm';
 
-import { Country } from '../country/country.entity';
-import { Exchange } from '../exchange/exchange.entity';
-import { Rate } from '../rate/rate.entity';
+import { Country } from './country.entity';
+import { Exchange } from './exchange.entity';
+import { Rate } from './rate.entity';
 
 @ObjectType()
 @Entity()

@@ -1,7 +1,7 @@
 import { countryMock } from '../../../country/test/mocks';
 import { exchangeMock } from '../../../exchange/test/mocks';
 import { rateMock } from '../../../rate/test/mocks';
-import { ExchangeOffice } from '../../exchange-office.entity';
+import { ExchangeOffice } from '../../../../common/entity/exchange-office.entity';
 
 const exchangeOfficeMock: ExchangeOffice = {
   id: '1',

@@ -1,9 +1,8 @@
 import { Resolver } from '@nestjs/graphql';
 
-import { BaseResolver } from '../common/base/base.resolver';
+import { BaseResolver, Exchange } from '../../common';
 import { CreateExchangeDto } from './dto/create-exchange.dto';
 import { UpdateExchangeDto } from './dto/update-exchange.dto';
-import { Exchange } from './exchange.entity';
 import { ExchangeService } from './exchange.service';
 
 @Resolver(() => Exchange)

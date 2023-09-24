@@ -3,12 +3,11 @@ import { ConfigService } from '@nestjs/config';
 import { InjectDataSource, InjectRepository } from '@nestjs/typeorm';
 import { DataSource, Repository } from 'typeorm';
 
-import { BaseService } from '../common/base/base.service';
+import { ExchangeOffice, BaseService } from '../../common';
 import { CountryService } from '../country/country.service';
 import { ExchangeService } from '../exchange/exchange.service';
 import { RateService } from '../rate/rate.service';
 import { TopExchangersByCountryDto } from './dto/top-chargers-by-country.dto';
-import { ExchangeOffice } from './exchange-office.entity';
 import topExchangersByCountryQuery from './query/top-3-profit-currencies';
 
 @Injectable()

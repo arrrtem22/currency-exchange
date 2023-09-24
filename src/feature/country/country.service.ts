@@ -2,8 +2,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 
-import { BaseService } from '../common/base/base.service';
-import { Country } from './country.entity';
+import { BaseService, Country } from '../../common';
 
 @Injectable()
 export class CountryService extends BaseService<Country> {

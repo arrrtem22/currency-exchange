@@ -5,12 +5,9 @@ dotenv.config();
 
 import { DataSource } from 'typeorm';
 
-import { Country } from '../country/country.entity';
-import { Exchange } from '../exchange/exchange.entity';
-import { ExchangeOffice } from '../exchange-office/exchange-office.entity';
-import { Rate } from '../rate/rate.entity';
 import { Country1693137721487 } from './migrations/1693137721487-Country';
 import { RestModels1693139817207 } from './migrations/1693139817207-RestModels';
+import { Country, Rate, Exchange, ExchangeOffice } from '../';
 
 // TODO: some good solution for now writing duplicates in typeorm v3?
 // https://github.com/typeorm/typeorm/issues/8810

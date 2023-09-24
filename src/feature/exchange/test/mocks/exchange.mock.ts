@@ -1,5 +1,5 @@
 import { exchangeOfficeMock } from '../../../exchange-office/test/mocks';
-import { Exchange } from '../../exchange.entity';
+import { Exchange } from '../../../../common/entity/exchange.entity';
 
 const exchangeMock: Exchange = {
   id: '5df84817-cddc-4e0f-bce9-4ab5bd02290a',
